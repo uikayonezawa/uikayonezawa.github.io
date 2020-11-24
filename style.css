@@ -192,13 +192,22 @@ background-color: #fff;
 }
 
 
-.box{width: 180px;
+.box, .box_event{
+/***width: 180px;
 height: 140px;
-/***border:solid gray 1px; ***/
+border:solid gray 1px; ***/
 text-align: center; 
 padding: 0px;
 font: bold "繝｡繧､繝ｪ繧ｪ";
 }
+
+.box, .box_event{width: 180px;
+height: 140px;
+}
+.box_event{width: 200px;
+height: 180px;
+}
+
 
 .b1, .b2, .b3 {margin: 0 auto; }
 /***.b1{background-color: rgba(255,0,0,0.5);}
