@@ -201,11 +201,17 @@ padding: 0px;
 font: bold "繝｡繧､繝ｪ繧ｪ";
 }
 
-.box, .box_event{width: 180px;
+.box{width: 180px;
 height: 140px;
 }
-.box_event{width: 200px;
+.box_event{width: 300px;
 height: 180px;
+}
+
+.box_event img{
+width: 150px;
+height: auto;
+    float: left;
 }
 
 
