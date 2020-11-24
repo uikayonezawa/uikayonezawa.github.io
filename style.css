@@ -156,6 +156,11 @@ background-color: #fff;
 ***/
 
 
+.intro img{
+    float: left;
+}
+    
+    
 .circle1{
     background-image: url("https://www.grips.ac.jp/list/wp-content/uploads/2015/04/sunami_atsushi.jpg");
     width:  120px;
