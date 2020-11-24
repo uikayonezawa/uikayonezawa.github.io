@@ -131,17 +131,13 @@ h3{
     padding-top: 90px;
         box-sizing: border-box;
 }
+
 .frame1{
     text-align: center;
     width: 100vw;
-    height: 70vh;
     background-image: url("https://www.grips.ac.jp/cms/wp-content/themes/grips2014sp6/common/img/top/bannerBG.jpg"); 
     background-size: cover;
     background-position: bottom;
-}
-
-.frame2{
-    height: 30vh;
 }
 
 
