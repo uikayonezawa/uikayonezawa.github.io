@@ -134,7 +134,7 @@ h3{
 .frame1{
     text-align: center;
     width: 100vw;
-    height: 60vh;
+    height: calc(60vh - 90px);
     background-image: url("https://www.grips.ac.jp/cms/wp-content/themes/grips2014sp6/common/img/top/bannerBG.jpg"); 
     background-size: cover;
     background-position: bottom;
