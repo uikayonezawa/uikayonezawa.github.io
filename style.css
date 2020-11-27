@@ -155,18 +155,23 @@ background-color: #fff;
   padding-bottom: 20px;
 }
 
-ul .showcase{
-    width: 300px;
-    height: 180px;
-
+.showcase{
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  background-color:#ff00ff;
+  width: 100%;
 }
 
-li .show{
-width: 290;
-height: auto;
-background-color: #fff000;
+.show{
+  background-color:#fff000;
+  margin:0 8px 0 -4px;
+  width:330px
 }
 
+.show img{
+  width:300px;
+}
 
 .box{
     width: 180px;
