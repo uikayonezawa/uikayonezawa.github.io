@@ -31,12 +31,10 @@ header {
     z-index: 1;
 }
 
-
 .header_area {
     height: 100%;
     width: 1024px;
     margin: 0 auto;
-
     /****background-color: #87cefa;豌ｴ濶ｲ***/
 }
 
@@ -46,8 +44,9 @@ header {
     width: 40%;
 }
 
-h1 { height: 100%;
-margin: 0;
+h1 { 
+    height: 100%;
+    margin: 0;
 }
 
 .gnav {
@@ -55,7 +54,6 @@ margin: 0;
     height: 100%;
     width: 55%;
     padding-right: 0px;
-    
     font-weight: bold;
     font-size: 12pt;
     /***background-color: #fff000;***/
@@ -71,12 +69,10 @@ margin: 0;
 }
     
 .gnav_menu{
-
     display: flex;
     list-style: none;
     float: right;
 }
-
 
 .gnav_menu_item {
     margin-left: 23px;
@@ -90,8 +86,6 @@ margin: 0;
 .gnav_menu_item a:hover {
     color: #000080;
 }
-
-
 
 .wrapper{
     background-color: #f5f5f5; /***#dcdcdc;***/
@@ -113,7 +107,6 @@ margin: 0;
     width: 800px;**/
 }
 
-
 h2 div {
     width: 80%;
 }
@@ -122,7 +115,6 @@ h3{
     color:#424242;
     font-size: 12pt;
 }
-
 
 .frame1, .frame2, .frame3, .frame4, .frame5, .frame6 {
     height: 100vh;
@@ -140,7 +132,6 @@ h3{
     background-position: bottom;
 }
 
-
 .frame6 {
     margin-bottom: 30px
 }
@@ -149,17 +140,48 @@ h3{
 .frame2, .frame4, .frame6 {
 background-color: #f5f5f5;
 }
-
 .frame3, .frame5 {
 background-color: #fff;
 }
 ***/
 
+.container{
+  height: 100%;
+  width: auto; 
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /***background-color:#6b8e23;***/
+  padding-bottom: 20px;
+}
+
+ul .showcase{
+    width: 300px;
+    height: 180px;
+
+}
+
+li .show{
+width: 290;
+height: auto;
+background-color: #fff000;
+}
+
+
+.box{
+    width: 180px;
+    height: 140px;
+    text-align: center; 
+    /***border:solid gray 1px;***/
+    padding: 0px;
+    font: bold "繝｡繧､繝ｪ繧ｪ";
+}
+
+.b1, .b2, .b3 {margin: 0 auto; }
 
 .intro img{
     float: left;
 }
-    
     
 .circle1{
     background-image: url("https://www.grips.ac.jp/list/wp-content/uploads/2015/04/sunami_atsushi.jpg");
@@ -181,46 +203,6 @@ background-color: #fff;
     margin: 0 auto;
 }
 
-.container{
-  height: 100%;
-  width: auto; 
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  /***background-color:#6b8e23;***/
-  padding-bottom: 20px;
-}
-
-
-.box, .box_event{
-/***width: 180px;
-height: 140px;
-border:solid gray 1px;
-text-align: center;  ***/
-padding: 0px;
-font: bold "繝｡繧､繝ｪ繧ｪ";
-}
-
-.box{
-    width: 180px;
-    height: 140px;
-    text-align: center; 
-}
-.box_event{
-    width: 300px;
-    height: 180px;
-    text-align: left; 
-}
-
-.box_event img{
-width: 150px;
-height: auto;
-float: left;
-}
-
-
-
-.b1, .b2, .b3 {margin: 0 auto; }
 /***.b1{background-color: rgba(255,0,0,0.5);}
 .b2{background-color: rgba(0,255,0,0.5);}
 .b3{background-color: rgba(255,255,0,0.5);}***/
@@ -230,21 +212,15 @@ float: left;
      text-align: left;
 }
 
-
-.carousel { box-sizing: border-box; 
-}
-
-
-.carousel {
+.carousel { 
+  box-sizing: border-box; 
   background: #222;
   padding: 20px 0;
-
 }
 
 .carousel-cell {
   width: 100%;
   height: calc(100vh - 200px);
-
   /***margin-right: 10px;***/
   /* center images in cells with flexbox */
   display: flex;
