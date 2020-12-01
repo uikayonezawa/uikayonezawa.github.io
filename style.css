@@ -145,16 +145,26 @@ background-color: #fff;
 }
 ***/
 
+.parent {
+  justify-content: space-around;
+}
+
+.child {
+  width: 300px;
+  height: 300px;
+  background: #3498db;
+}
+
+/***
 .container{
   height: 100%;
   width: auto; 
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  /***background-color:#6b8e23;***/
+  /***background-color:#6b8e23;
   padding-bottom: 20px;
 }
-
 .showcase{
   list-style: none;
   display: flex;
@@ -162,16 +172,15 @@ background-color: #fff;
   background-color:#ff00ff;
   width: 100%;
 }
-
 .show{
   background-color:#fff000;
   margin:0 8px 0 -4px;
   width:330px
 }
-
 .show img{
   width:300px;
 }
+***/
 
 .box{
     width: 180px;
@@ -182,11 +191,9 @@ background-color: #fff;
     font: bold "繝｡繧､繝ｪ繧ｪ";
 }
 
-.b1, .b2, .b3 {margin: 0 auto; }
+.b1, .b2, .b3 { margin: 0 auto; }
 
-.intro img{
-    float: left;
-}
+.intro img{ float: left;}
     
 .circle1{
     background-image: url("https://www.grips.ac.jp/list/wp-content/uploads/2015/04/sunami_atsushi.jpg");
@@ -238,30 +245,23 @@ background-color: #fff;
   max-height:100%;
 }
 
-
 .carousel.is-fullscreen .carousel-cell {
   /***max-height: 100%;***/
 }
 
 .carousel.is-fullscreen .carousel-cell-image {
   max-height: 100%;
-
 }
 
-
 /*footer*/
-
 footer{
     height: 90px;
     width:100%;
     position: absolute;/*竊千ｵｶ蟇ｾ菴咲ｽｮ*/
     bottom: 0; /*荳九↓蝗ｺ螳*/
-
     background-color: #e0ffff;
     text-align: center;
     vertical-align: bottom;
 }
 
-footer p {
-    color: #c2c2c2;
-}
+footer p { color: #c2c2c2;}
