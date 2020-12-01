@@ -155,32 +155,7 @@ background-color: #fff;
   background: #3498db;
 }
 
-/***
-.container{
-  height: 100%;
-  width: auto; 
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  /***background-color:#6b8e23;
-  padding-bottom: 20px;
-}
-.showcase{
-  list-style: none;
-  display: flex;
-  flex-wrap: wrap;
-  background-color:#ff00ff;
-  width: 100%;
-}
-.show{
-  background-color:#fff000;
-  margin:0 8px 0 -4px;
-  width:330px
-}
-.show img{
-  width:300px;
-}
-***/
+
 
 .box{
     width: 180px;
