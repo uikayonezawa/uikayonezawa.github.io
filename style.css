@@ -8,7 +8,7 @@ body {
     padding: 0;        /* 余白の削除 */
     width:100%;
     height:100%;
-    color: #222;
+    color: #333;
     background-color: "#000";
     font-size: 12pt;
 }
@@ -25,18 +25,16 @@ header {
     width: 100%;
     /***background-color:#ffc0cb;/***ピンク***/
     /***background-color: #fff;***/
-    background-color:rgba(255,255,255,0.9);
+    background-color:rgba(255,255,255,0.8);
     position: fixed;
     top: 0;
     z-index: 1;
 }
 
-
 .header_area {
     height: 100%;
     width: 1024px;
     margin: 0 auto;
-
     /****background-color: #87cefa;水色***/
 }
 
@@ -47,7 +45,7 @@ header {
 }
 
 h1 { height: 100%;
-margin: 0;
+     margin: 0;
 }
 
 .gnav {
@@ -55,9 +53,8 @@ margin: 0;
     height: 100%;
     width: 55%;
     padding-right: 0px;
-    
     font-weight: bold;
-    font-size: 12pt;
+    font-size: 13pt;
     /***background-color: #fff000;***/
 }
 
@@ -67,44 +64,42 @@ margin: 0;
     text-align: right;
 }
 
-.access {
+.access a { 
+    color: #61CBE2;
+    text-decoration: none;
+}
+.access a:hover {    color: #000080;
 }
     
 .gnav_menu{
-
     display: flex;
     list-style: none;
     float: right;
 }
-
-
 .gnav_menu_item {
     margin-left: 23px;
 }
-
 .gnav_menu_item a {
     text-decoration: none;
     color: #009bbf;
 }
-
 .gnav_menu_item a:hover {
-    color: #000080;
+    color: #1900BC;
 }
 
 
-
 .wrapper{
-    background-color: #f5f5f5; /***#dcdcdc;***/
+    background-color:#f3f3f3; /***#f5f5f5; #dcdcdc;***/
     /***height: 100%;***/
     min-height: 100vh;
     width: 100%;
     position: relative;/*←相対位置*/
-    padding-bottom: 150px;/*←footerの高さ*/
+    padding-bottom: 90px;/*←footerの高さ*/
     box-sizing: border-box;
 }
 
 /*.contents */
-.content{
+.contents{
     width:100%;
     /**height: calc(100vh - 400px);
     line-height: 1.6;
@@ -114,92 +109,223 @@ margin: 0;
 }
 
 
-h2 div {
-    width: 80%;
-}
+h2 div {width: 80%;}
 
-h3{
-    color:#424242;
-    font-size: 12pt;
-}
-
+h3{font-size: 12pt;}
 
 .frame1, .frame2, .frame3, .frame4, .frame5, .frame6 {
     height: 100vh;
     width: 1024px;
     margin: 0 auto;
     padding-top: 90px;
-        box-sizing: border-box;
+    box-sizing: border-box;
 }
+
+/***top***/
 .frame1{
     text-align: center;
     width: 100vw;
     background-image: url("https://www.grips.ac.jp/cms/wp-content/themes/grips2014sp6/common/img/top/bannerBG.jpg"); 
     background-size: cover;
     background-position: bottom;
+    opacity: 0.8;
 }
 
+/***projects***/
+.frame4{
+    background-color: transparent;
+}
 
+ #projects{
+background-color:rgba(255,255,255,0.3);
+ }
+ 
 
-
+/***outcomes***/
 .frame6 {
-    margin-bottom: 30px
+    margin-bottom: 0px
+}
+
+.content_inner_blue, .frame4, .frame6, .frame2 {
+background-color: #eaf4fc; 
+    height: 100vh;
+    min-height: 800px;
+}
+
+.content_inner_white, .frame3, .frame5, .frame1 {
+background-color: #fff;
+/***#f5f5f5;***/
+    height: 100vh;
+    min-height: 800px;
+}
+
+.plan{
+    background-color: #fff;
+    width:  868px;
+    height: 500px;
+    border: 6px solid #add8e6;
+    border-radius: 50px;
+    background-size: cover;
+    margin: 0 auto;
+    vertical-align: middle;
+}
+
+.project_logo{
+    padding-top: 20px;
+}
+
+.f_inner1{
+  /***background-color: #cfcfcf;***/
+  margin-bottom: 40px;
+}
+.f_inner2 {text-align: center;
+}
+
+.parent{width: 100%;}
+.parent div{ margin-top: 10px;
 }
 
 /***
-.frame2, .frame4, .frame6 {
-background-color: #f5f5f5;
-}
-
-.frame3, .frame5 {
-background-color: #fff;
+.HalfBanner{
+    width:234px;
+    height: 60px;
+    background-color: #5383c3;
+    text-align: center;
 }
 ***/
 
+/***news***/
+table {
+    width:100%;
+    height:70px;
+    background-color: #eaf4fc; /***#e3e9f1;***/
+    margin-bottom: 4px;
 
-.circle1{
-    background-image: url("https://www.grips.ac.jp/list/wp-content/uploads/2015/04/sunami_atsushi.jpg");
-    width:  120px;
-    height: 120px;
-    border: 6px solid #add8e6;
-    border-radius: 50%;
-    background-size: cover;
-    margin: 0 auto;
+border-collapse: collapse;
+vertical-align: middle;
+text-align: left;
 }
 
-.circle2{
-    background-image: url("https://gist.grips.ac.jp/faculty/img/faculty_hayashi.jpg");
-    width:  120px;
-    height: 120px;
-    border: 6px solid #add8e6;
-    border-radius: 50%;
-    background-size: cover;
-    margin: 0 auto;
+
+.td1{ 
+    width: 134px;
+    padding-left: 10px;
+}/***日付***/
+
+.td1 p{
+    font-weight: normal;
+    color: #4a4a4a;
+}
+.td2{ 
+    width: 900px;
+    padding-right:5px;
+    line-height: 1.5em;
+    font-weight: bold;
+
 }
 
-.container{
-  height: 100%;
-  width: auto; 
+.td2 a{
+    color:#00849b;
+    text-decoration: none;
+}
+    
+.td2 a:hover {
+    color: #000080;
+}
+
+
+/***projects, members***/
+.parent {
+  display: -webkit-box;
   display: flex;
-  flex-direction: row;
+  -webkit-box-pack: justify;
+  justify-content: space-around;
   flex-wrap: wrap;
-  /***background-color:#6b8e23;***/
-  padding-bottom: 20px;
+  width: auto; 
+ /***justify-content: flex-start;***/
+ /*** flex-direction: row;***/
 }
 
-
-.box{width: 180px;
-height: 140px;
+/***projects***/
+.bg_img{
+width: 300px;
+height: 250px;
+text-align: left; 
 /***border:solid gray 1px; ***/
-text-align: center; 
+/**background-size: cover;**/
+/**display: table-cell;**/
+margin-bottom:35px;
+font: bold "メイリオ";
+}
+
+.child_prj{
+width: 300px;
+height: 100%;
+background-size:cover;
+background-position:50%;
+position: relative;
+}
+
+.child_prj::after {
+  content: '';
+  background-color: rgba(0,0,0,.4);
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.text_prj, .name_prj, .term_prj{
+  padding: 0.8em;
+  font-size:1.0rem;
+  color: #FFF;
+
+  font-weight: normal;
+  position: relative;
+  z-index: 1;
+}
+
+.text_prj{
+    height: 9em;
+    vertical-align: top;
+      font-size: 17px;
+}
+
+.term_prj, .name_prj{
+    width: 270px;
+    padding: 0;
+    margin: 0 auto;
+    vertical-align: bottom;
+    text-align: right;
+    font-weight: normal;
+    line-height: 1.4em;
+}
+
+.term_prj{
+    border-top: solid 2px #fff;
+    height: 1em;   
+}
+.name_prj{
+    height: 1em;
+}
+
+/***members***/
+.child {width: 180px;
+height: auto;
 padding: 0px;
+  background-size:cover;
+  background-position:50%;
+  position: relative;
 font: bold "メイリオ";
 }
 
 .b1, .b2, .b3 {margin: 0 auto; }
-/***.b1{background-color: rgba(255,0,0,0.5);}
+/***
+.b1{background-color: rgba(255,0,0,0.5);}
 .b2{background-color: rgba(0,255,0,0.5);}
-.b3{background-color: rgba(255,255,0,0.5);}***/
+.b3{background-color: rgba(255,255,0,0.5);}
+***/
 
 .mem{
      list-style: none;
@@ -207,20 +333,34 @@ font: bold "メイリオ";
 }
 
 
-.carousel { box-sizing: border-box; 
+/***members frame5***/
+.circle1{
+    width:  120px;
+    height: 120px;
+    border: 6px solid #add8e6;
+    border-radius: 50%;
+    background-size: cover;
+    margin: 0 auto;
 }
 
+
+
+/***outcomes***/
+
+
+.carousel { 
+
+    box-sizing: border-box; 
+}
 
 .carousel {
   background: #222;
   padding: 20px 0;
-
 }
 
 .carousel-cell {
   width: 100%;
-  height: calc(100vh - 200px);
-
+  height: calc(100vh - 380px);
   /***margin-right: 10px;***/
   /* center images in cells with flexbox */
   display: flex;
@@ -240,12 +380,10 @@ font: bold "メイリオ";
 
 .carousel.is-fullscreen .carousel-cell-image {
   max-height: 100%;
-
 }
 
 
 /*footer*/
-
 footer{
     height: 90px;
     width:100%;
